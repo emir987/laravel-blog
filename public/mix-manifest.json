@@ -1,0 +1,20 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/js/myckeditor5.js": "/js/myckeditor5.js",
+    "/js/multiselectdropdowninit.js": "/js/multiselectdropdowninit.js",
+    "/js/validations/post.js": "/js/validations/post.js",
+    "/js/validations/error-messages/show-post-title-error-message.js": "/js/validations/error-messages/show-post-title-error-message.js",
+    "/js/validations/error-messages/show-post-categories-error-message.js": "/js/validations/error-messages/show-post-categories-error-message.js",
+    "/js/validations/error-messages/show-post-content-error-message.js": "/js/validations/error-messages/show-post-content-error-message.js",
+    "/js/validations/post-category.js": "/js/validations/post-category.js",
+    "/js/validations/error-messages/show-postcategory-name-error-message.js": "/js/validations/error-messages/show-postcategory-name-error-message.js",
+    "/css/app.css": "/css/app.css",
+    "/css/common.css": "/css/common.css",
+    "/froala-editor/bower.json": "/froala-editor/bower.json",
+    "/froala-editor/composer.json": "/froala-editor/composer.json",
+    "/froala-editor/editor.jpg": "/froala-editor/editor.jpg",
+    "/froala-editor/index.html": "/froala-editor/index.html",
+    "/froala-editor/License.txt": "/froala-editor/License.txt",
+    "/froala-editor/package.json": "/froala-editor/package.json",
+    "/froala-editor/README.md": "/froala-editor/README.md"
+}

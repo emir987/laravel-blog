@@ -1,0 +1,30 @@
+.custom-nav {
+    background-color: $blue;
+    padding: 15px;
+}
+
+.custom-nav a {
+    color: $white;
+    padding: 17px;
+    text-decoration: none;
+}
+
+.custom-nav a:hover {
+    background-color: $cyan;
+}
+
+.active {
+    background-color: $cyan;
+}
+
+// #brand {
+//     font-size: 22px;
+// }
+
+#brand:hover {
+    background-color: $blue;
+}
+
+.nav-menu {
+    float: right;
+}

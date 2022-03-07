@@ -1,0 +1,25 @@
+.padding-5 {
+  padding: 5px !important;
+}
+
+.padding-10 {
+  padding: 10px !important;
+}
+
+.btn-group {
+  border: 1px solid #ced4da !important;
+  border-radius: 0.25rem !important;
+}
+
+.error-border {
+  border: 1px solid #e3342f !important;
+}
+
+.error-border-radius {
+  border-radius: 3px;
+}
+
+.error-message {
+  color: #e3342f;
+  display: none;
+}

@@ -1,0 +1,31 @@
+// Variables
+@import 'variables';
+
+// padding
+.padding-5 {
+    padding: 5px !important;
+}
+.padding-10 {
+    padding: 10px !important;
+}
+
+// extra style for dropdown multiple select 
+.btn-group {
+    border: 1px solid $light-grey !important;
+    border-radius: 0.25rem !important;
+}
+
+// border styles
+.error-border {
+    border: 1px solid $red !important;
+}
+
+.error-border-radius {
+    border-radius: 3px;
+}
+
+// visibility
+.error-message {
+    color: $red;
+    display: none;
+}
