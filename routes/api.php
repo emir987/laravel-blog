@@ -2,7 +2,6 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\FileController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,7 +14,6 @@ use App\Http\Controllers\FileController;
 |
 */
 
-Route::resource('/file', FileController::class);
 
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {

@@ -39,6 +39,7 @@ class FileController extends Controller
     public function store(StoreFileRequest $request)
     {
         $file = $request->file('file');
+
         $fileName = $file->getClientOriginalName();
 
         if (Storage::exists('files/' . $fileName)) {
@@ -52,7 +53,7 @@ class FileController extends Controller
         $path = $file->storeAs('files', $fileName);
 
         return response()->json([
-            'link' => asset('storage/' . $path)
+            'link' => $path
         ]);
     }
 

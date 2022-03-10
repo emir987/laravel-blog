@@ -9,6 +9,7 @@ use App\Http\Controllers\AdminPostCategoriesController;
 use App\Http\Controllers\AdminPostsArchiveController;
 use App\Http\Controllers\AdminPostsController;
 use App\Http\Controllers\PostsController;
+use App\Http\Controllers\FileController;
 
 use App\Models\Post;
 
@@ -37,6 +38,9 @@ Route::resource('/administration/post-categories', AdminPostCategoriesController
 
 Route::resource('/administration/posts/archive', AdminPostsArchiveController::class);
 Route::resource('/administration/posts', AdminPostsController::class);
+
+Route::resource('/file', FileController::class);
+
 
 // Route::resource('/file', FileController::class);
 

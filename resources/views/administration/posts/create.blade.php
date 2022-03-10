@@ -101,14 +101,12 @@
                 fileUploadParam: 'file',
 
                 // Set the file upload URL.
-                fileUploadURL: 'http://127.0.0.1:8000/api/file',
+                fileUploadURL: '/file',
 
                 // Additional upload params.
                 fileUploadParams: {
-                    id: 'my_editor'
+                    _token: $('meta[name="csrf-token"]').attr('content')
                 },
-
-
 
                 // Set request type.
                 fileUploadMethod: 'POST',
